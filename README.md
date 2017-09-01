@@ -29,6 +29,6 @@ cd build
 cmake ..
 make 
 ```
-finally link libKipc.so to your project and include .h headers in include folder
+finally link libkipc.so to your project and include .h headers in include folder
 <br/>
 :)
