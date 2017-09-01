@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project(kipc)
+include_directories(include)
+set(CMAKE_C_STANDARD 11)
+set(SOURCE_FILES include/ksem.h include/kshm.h include/kmsg.h src/kmsg.c src/ksem.c src/kshm.c)
+add_library(kipc SHARED ${SOURCE_FILES})
